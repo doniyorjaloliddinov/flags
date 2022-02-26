@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1220px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(6, 241, 77);
+  border: 1px solid black;
+}
+
+.contries-size {
+  width: 250px;
+  height: 150px;
+}
+
+.argentina {
+  background-image: linear-gradient(rgb(0, 0, 255) 33%,rgb(255, 255, 255) 33%,rgb(255, 255, 255) 66%, rgb(0, 0, 255) 66%);
+}
+
+.germany {
+  background-image: linear-gradient(rgb(0, 0, 0) 33%,rgb(255, 0, 0) 33%,rgb(255, 0, 0) 66%,rgb(255, 230, 0) 66%);
+}
+
+.hungary {
+  background-image: linear-gradient(rgb(255, 0, 0) 33%, rgb(255, 255, 255) 33%, rgb(255, 255, 255) 66%, rgb(0, 128, 0) 66%);
+}
+
+.indonesia {
+  background-image: linear-gradient(rgb(255, 0, 0) 50%,rgb(255, 0, 0) 50%,rgb(255, 255, 255) 50%);
+}
+
+.austria {
+  background-image: linear-gradient(rgb(255, 30, 0) 33%, rgb(255, 255, 255) 33%, rgb(255, 255, 255)66%, rgb(255, 30, 0) 66%);
+}
+
+.bulgaria {
+  background-image: linear-gradient(rgb(255, 255, 255) 33%,rgb(0, 128, 0) 33%,rgb(0, 128, 0) 66%, rgb(255, 0, 0) 66%);
+}
+
+.chad {
+  background-image: linear-gradient(to right, blue 33%, yellow 33%, yellow 66%, red 66%);
+}
+
+.colombia {
+  background-image: linear-gradient(yellow 50%, blue 50%, blue 75%, red 75%);
+}
+
+.bangladesh {
+  background-image: radial-gradient(circle, rgba(219,22,22,1) 30%,rgba(13,93,16,1) 30%, rgba(13,93,16,1) 30%);
+}
+
+.bhutan {
+  background-image: linear-gradient(297deg, rgba(148,30,3,1) 47%, rgba(247,202,1,1) 48%);
+}
